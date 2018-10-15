@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/getPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="192dp"
+        android:text="Get Point"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginBottom="115dp"
+        android:text="Finish"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:text="Lat"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="81dp"
+        android:text="lng"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Latitude"
+        android:layout_alignTop="@+id/textView2"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="48dp" />
+</RelativeLayout>
